@@ -31,251 +31,141 @@ const questionBank = [
 
     {
         question:
-            "What do we call one thing built from a class, holding its own values?",
+            "It is interest on activities which are pleasurable in effect; mirth.",
         answers: [
-            "object"
+            "Amusement"
         ]
     },
-
-    {
-        question:
-            "Which keyword actually creates an object from a class?",
-        answers: [
-            "new"
-        ]
-    },
-
-    {
-        question:
-            "What does a reference variable hold while it refers to no object at all?",
-        answers: [
-            "null"
-        ]
-    },
-
-    {
-        question:
-            "Enumerate the four pillars of object-oriented programming.",
-        answers: [
-            "encapsulation, abstraction, inheritance, polymorphism",
-        ]
-    },
-
-    {
-        question:
-            "Every object made from a class gets its own copy of each variable the class declares, and each  such variable is called an ――――――.",
-        answers: [
-            "attribute"
-        ]
-    },
-
-    {
-        question:
-            "A water-refilling station registers each household once, with a name and an address. Every delivery records the date, the gallons taken, the price per gallon on that day, and which household ordered it. Name the two classes implicit in this description.",
-        answers: [
-            "Household, Delivery"
-        ]
-    },
-
-    {
-        question:
-            "Should the price per gallon sit on the household or on the delivery?",
-        answers: [
-            "the delivery"
-        ]
-    },
-
-    {
-        question:
-            "Which pillar is at work when a setter refuses to accept a negative age?",
-        answers: [
-            "encapsulation"
-        ]
-    },
-
-    {
-        question:
-            "In procedural programming the unit of organization is the procedure, so what is it in object-oriented  programming? ",
-        answers: [
-            "the object"         
-        ]
-    },
-
-    {
-        question:
-            "What do we call a block that runs once at creation, carries the class's own name, and declares no  return type? ",
-        answers: [
-            "constructor"         
-        ]
-    },
-
-    {
-        question:
-            "Enumerate the three advantages of OOP named in this unit.",
-        answers: [
-            "reusability, modularity, maintainability"
-        ]
-    },
-
-    {
-        question:
-            "Assigning one reference variable to another copies the ――――――, not the object itself.",
-        answers: [
-            "reference"
-        ]
-    },
-
-    {
-        question:
-            "The values an object's attributes hold at one moment are its ――――――, while what its methods let it do is its behavior.",
-        answers: [
-            "state"
-        ]
-    },
-
-    {
-        question:
-            "Should the fare sit on the driver or on the trip?",
-        answers: [
-            "the trip"
-        ]
-    },
-
-    {
-        question:
-            "Would putting the fare on the driver still record last week's trip correctly",
-        answers: [
-            "no"
-        ]
-    },    
 
      {
         question:
-            "Which access modifier makes a member reachable only inside its own class?",
+            "In Europe this is interpreted to mean track and field. It is a sport that requires physical ability/skills to accomplish.",
         answers: [
-            "private"
+            "Athsletic"
         ]
-    },    
+    },
+
+    {
+        question:
+            "this consists of a contest between two individuals of group of individuals played in accordance to a set of rule/s.",
+        answers: [
+            "Game/s"
+        ]
+    },
 
      {
         question:
-            "Which access modifier opens a member to subclasses as well?",
+            "It is an occupational activity which is agreeable to the individual indulging in it.",
         answers: [
-            "protected"
+            "Pastime"
         ]
-    },    
+    },
+
+     {
+        question:
+            "An individual performs an activity lightly and quickly and with no end in view except the pleasure one gets in the activity.",
+        answers: [
+            "Play"
+        ]
+    },
 
     {
         question:
-            "What is the other word for an object, used when you want to stress which class it came from?",
+            "An activity one indulges in to divert his mind from his daily toil.",
         answers: [
-            "instance"
+            "Recreation"
         ]
-    },    
+    },
 
     {
         question:
-            "What do we call a variable declared inside a method rather than inside the class body?",
+            "it is athletics, diversion or pastime done outdoor (indoor)",
         answers: [
-            "local variable"
+            "Sport/s"
         ]
-    },    
+    },
 
     {
         question:
-            "Enumerate the three practical guarantees object-oriented programming provides.",
+            "Sports which is done by only one person. Examples: archery, athletics (track and field) except relays, bowling, bicycling, gymnastics",
         answers: [
-            "one rule in one place, nobody can reach in, new kinds cost nothing"
+            "Individual or self-testing sports"
         ]
-    },    
+    },
+
+     {
+        question:
+            "Sports or events which are done by two persons. Examples: lawn tennis, badminton, table tennis",
+        answers: [
+            "Dual sports"
+        ]
+    },
 
     {
         question:
-            "The act of creating an object from a class, using new, is called ――――――.",
+            "A sport that involves competition between teams of players. Examples: basketball, volleyball.",
         answers: [
-            "instantiation"
+            "Team sports"
         ]
-    },    
+    },
 
     {
         question:
-            "this restates the unit's own definition of instantiation: creating an object from a class using  new. A photocopy shop registers each regular customer once, with a name and a contact number. Every job records the number of pages, the paper size, and the customer who ordered it. Should the page count sit on the customer or on the job?",
+            "Is a competitive contact sport where two combatants fight against each other using certain rules of engagement, typically with the aimof simulating partsofrea hand-to-hand combat.",
         answers: [
-            "the job"
+            "Combative sports"
         ]
-    },   
+    },
 
     {
         question:
-            "Would the customer's contact number change from one job to the next? ",
+            "the inventor of the sport, country of origin and development of the game.",
         answers: [
-            "no"
+            "History"
         ]
-    },   
+    },
+
+    
+    {
+        question:
+            "where the games are played （indoor,outdoor,or both),size,differentdesigns for male or female,and the safety procedures for the players.",
+        answers: [
+            "Court dimensions/venue"
+        ]
+    },
 
     {
         question:
-            "Which pillar lets you call a ready-made method without ever seeing how it works inside? ",
+            "proper protective gears,uniforms and the outfits which also involve safetyofplayers and the officials.",
         answers: [
-            "abstraction"
+            "Equipment and Gear"
         ]
-    },   
+    },
 
     {
         question:
-            "What do we call the whole set of methods a class offers? ",
+            "technical skill are the basics of playing the games,while tacticaskills are the strategies to take advantage during the game.",
         answers: [
-            "behavior"
+            "Technical and Tactical Skills"
         ]
-    },   
+    },
 
     {
         question:
-            "Which error is thrown when a method is called through a reference that holds null?",
+            "set of rules on how the game is played,violations,penalties, how to scorepoints, how many players are allowed.",
         answers: [
-            "NullPointerException"
+            "Rules of the Game"
         ]
-    },   
+    },
 
     {
         question:
-            "Enumerate the three things new does when it creates an object. ",
+            "officials of the game, their duties and responsibilities of calling for violationspenalties,points and regulating fair play.",
         answers: [
-            "sets aside memory, runs the constructor, returns a reference "
+            "Officiating"
         ]
-    },   
-
-    {
-        question:
-            "A variable that holds an object's location rather than the object itself is a ――――――.",
-        answers: [
-            "reference"
-        ]
-    },   
-
-    {
-        question:
-            "Keeping an object's data private and letting the outside reach it only through methods the class  chooses is called ――――――.",
-        answers: [
-            "encapsulation"
-        ]
-    },   
-
-    {
-        question:
-            "Should the quantity sit on the vendor or on the sale? ",
-        answers: [
-            "the sale"
-        ]
-    },   
-
-    {
-        question:
-            "Would two sales made by the same vendor always carry the same quantity? ",
-        answers: [
-            "no"
-        ]
-    },   
+    },
+    
 ]
 /* ==============================
    QUIZ VARIABLES
