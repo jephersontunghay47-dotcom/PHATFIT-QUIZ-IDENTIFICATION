@@ -41,7 +41,7 @@ const questionBank = [
         question:
             "In Europe this is interpreted to mean track and field. It is a sport that requires physical ability/skills to accomplish.",
         answers: [
-            "Athsletic"
+            "Athletics"
         ]
     },
 
